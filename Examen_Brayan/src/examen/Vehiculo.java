@@ -18,6 +18,7 @@ public class Vehiculo {
         return matricula;
     }
 
+<<<<<<< HEAD
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
@@ -55,4 +56,12 @@ public class Vehiculo {
                 '}';
     }
     
+=======
+	public Vehiculo(String matricula, String marca, String modelo, double prestado) {
+        this.matricula = matricula;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.prestado = prestado;
+    }
+>>>>>>> 1df9c0ea0493351c4767d245751a168097c29145
 }
